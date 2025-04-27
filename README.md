@@ -20,26 +20,6 @@ The dataset used is the Wine Quality dataset from the UCI Machine Learning Repos
 - Alcohol
 - Quality (target variable)
 
-## Project Structure
-wine-quality-prediction/
-│
-├── data/                      # Store raw and processed data
-│   ├── raw/                   # Original, immutable data
-│   └── processed/             # Cleaned, transformed data
-│
-├── notebooks/                 # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb  # Initial EDA
-│   └── 02_modeling.ipynb      # Model building and evaluation
-│
-├── models/                    # Saved model files
-│
-├── reports/                   # Generated reports
-│   ├── figures/               # Generated graphics and figures
-│   └── final_report.ipynb     # Final compiled notebook for submission
-│
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project description
-
 ## Key Findings
 - We've successfully built a wine quality prediction model using Random Forest.
 - After hyperparameter tuning, the model achieved an F1 score of 0.7222 on the test set.
